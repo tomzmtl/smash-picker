@@ -1,0 +1,37 @@
+.MasterButton {
+  position: relative;
+  display: flex;
+  margin: auto;
+  width: 100%;
+  max-width: 320px;
+  height: 320px;
+  background: White;
+  border-radius: 5px;
+  transition: 1s ease-out;
+  cursor: pointer;
+}
+
+.MasterButton::before {
+  content: '?';
+  position: relative;
+  margin: auto;
+  font-size: 300px;
+  font-family: sans-serif;
+  font-weight: bold;
+  line-height: 100%;
+  transition: 1s ease-out;
+}
+
+.MasterButton:hover {
+  transform: scale(1.1) rotateZ(5deg);
+  box-shadow: 0 0 40px rgba(0,0,0,0.3);
+}
+
+.MasterButton:hover::before {
+  transform: rotateZ(-5deg);
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
