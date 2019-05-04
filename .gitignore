@@ -16,5 +16,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-public/images/costumes
+public/images/fighters
 /package-lock.json
