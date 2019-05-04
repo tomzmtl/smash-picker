@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+import classnames from 'classnames';
 import MasterButton from '../MasterButton';
 import Fighter from '../Fighter';
 import { pickRandomFighter } from './helpers';
+import { supportsTouch } from '../../common/featureDetection';
 import './styles.css';
 
 class App extends Component {
@@ -26,8 +28,14 @@ class App extends Component {
 
   render() {
     const { fighter } = this.state;
+
+    const cls = classnames({
+      App: true,
+      'App--touch': supportsTouch(),
+    });
+
     return (
-      <div className="App">
+      <div className={cls}>
         {fighter ? <Fighter fighter={fighter} pickFighter={this.pickFighter} reset={this.reset} /> : null}
         {fighter ? null : <MasterButton pickFighter={this.pickFighter} />}
       </div>

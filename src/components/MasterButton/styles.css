@@ -6,7 +6,6 @@
   max-width: 320px;
   height: 320px;
   background: rgb(72, 11, 10);
-  /* transition: 200ms ease-out; */
   cursor: pointer;
   color: white;
 }
@@ -21,7 +20,6 @@
   line-height: 100%;
   -webkit-text-stroke: 2px black;
   text-shadow: -0 0 4px black;
-  /* transition: 200ms ease-out; */
 }
 
 .MasterButton:hover {

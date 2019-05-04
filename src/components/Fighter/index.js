@@ -13,6 +13,9 @@ class Fighter extends Component {
           style={{ backgroundImage: `url(${getFighterImage(fighter)})` }}
           onClick={this.props.pickFighter}
         />
+      <div className="Fighter__name">
+          {fighter.name}
+        </div>
       </div>
     );
   }

@@ -1,16 +1,29 @@
 .Fighter {
   height: 100vh;
   width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  animation: fighterIn 1s ease-out both;
 }
 
 .Fighter__image {
   display: block;
-  height: 100vh;
-  width: 100vw;
+  width: inherit;
+  height: 50vh;
+  margin-bottom: 24px;
   background: no-repeat top center;
-  background-size: cover;
+  background-size: contain;
   filter: contrast(110%);
-  animation: fighterIn 1s ease-out both;
+}
+
+.Fighter__name {
+  -webkit-text-stroke: 2px black;
+  text-shadow: -0 0 4px black;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: -2px;
 }
 
 @keyframes fighterIn {
