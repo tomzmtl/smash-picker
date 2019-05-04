@@ -13,19 +13,22 @@ class App extends Component {
     };
 
     this.pickFighter = this.pickFighter.bind(this);
+    this.reset = this.reset.bind(this);
   }
 
   pickFighter() {
-    this.setState({
-      fighter: pickRandomFighter(),
-    });
+    this.setState({ fighter: pickRandomFighter() });
+  }
+
+  reset() {
+    this.setState({ fighter: null });
   }
 
   render() {
     const { fighter } = this.state;
     return (
       <div className="App">
-        {fighter ? <Fighter fighter={fighter} pickFighter={this.pickFighter} /> : null}
+        {fighter ? <Fighter fighter={fighter} pickFighter={this.pickFighter} reset={this.reset} /> : null}
         {fighter ? null : <MasterButton pickFighter={this.pickFighter} />}
       </div>
     );

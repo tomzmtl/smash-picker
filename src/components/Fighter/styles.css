@@ -10,4 +10,17 @@
   background: no-repeat top center;
   background-size: cover;
   filter: contrast(110%);
+  animation: fighterIn 1s ease-out both;
+}
+
+@keyframes fighterIn {
+  0% {
+    transform: translateY(40px);
+    filter: contrast(110%) brightness(0);
+  }
+
+  100% {
+    transform: translateY(0);
+    filter: contrast(110%) brightness(100%);
+  }
 }

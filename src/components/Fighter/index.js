@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import { getFighterImage } from './helpers';
 import './styles.css';
 
-class App extends Component {
+class Fighter extends Component {
   render() {
     const { fighter } = this.props;
 
     return (
-      <div className="Fighter">
+      <div className="Fighter" onClick={this.props.reset}>
         <div
           className="Fighter__image"
           style={{ backgroundImage: `url(${getFighterImage(fighter)})` }}
@@ -18,4 +18,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Fighter;
