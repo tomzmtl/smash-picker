@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './styles.css';
 
-class App extends Component {
+
+class MasterButton extends Component {
   render() {
     return (
       <div className="MasterButton" onClick={this.props.pickFighter} />
@@ -9,4 +10,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default MasterButton;

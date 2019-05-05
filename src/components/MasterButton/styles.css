@@ -15,14 +15,13 @@
   position: relative;
   margin: auto;
   font-size: 300px;
-  font-family: sans-serif;
-  font-weight: bold;
+  font-weight: 900;
   line-height: 100%;
-  -webkit-text-stroke: 2px black;
-  text-shadow: -0 0 4px black;
+  text-shadow: 1px 1px 0 black, -1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -3px 3px 0 black;
 }
 
-.MasterButton:hover {
+.MasterButton:hover,
+.App--touch .MasterButton {
   background: rgb(255, 20, 0);
   border: 10px solid rgb(254, 254, 127);
   box-shadow: 0 0 10px rgb(254, 254, 127);
@@ -30,8 +29,7 @@
 }
 
 .MasterButton:hover::before {
-  text-shadow: -0 0 4px black, -6px 6px 0 black;
-  -webkit-text-stroke: 2px black;
+  text-shadow: 2px 2px 0 black, -2px 2px 0 black, -2px -2px 0 black, 2px -2px 0 black, -6px 6px 0 black;
 }
 
 @keyframes textIn {
