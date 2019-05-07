@@ -8,5 +8,5 @@
 .ProgressBar__progress {
   height: inherit;
   background: rgb(254, 254, 127);
-  transition: 100ms ease-in-out;
+  transition: 400ms ease-in-out;
 }

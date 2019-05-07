@@ -1,17 +1,13 @@
 import createjs from 'preload-js';
-import { FIGHTERS } from './fighters';
 import { getFighterImage } from '../components/Fighter/helpers';
 
 
-const queue = new createjs.LoadQueue(true);
-const manifest = FIGHTERS.filter(f => f.pickable).map(f => getFighterImage(f));
-
-queue.on('fileload', (a, b) => {
-  console.log('progress', queue.progress);
-});
-
-export default (onComplete, onProgress) => {
-  queue.loadManifest(manifest);
-  queue.on('fileload', () => onProgress(queue.progress));
-  queue.on('complete', () => onComplete());
+export const preloadFighterImage = (fighter) => {
+  const queue = new createjs.LoadQueue(false);
+  const src = getFighterImage(fighter);
+  queue.loadFile({ src, type: 'image' });
+  return new Promise((resolve, reject) => {
+    queue.on('complete', () => resolve(src));
+    queue.on('error', () => reject(src));
+  });
 };

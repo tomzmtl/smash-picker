@@ -3,9 +3,8 @@
   display: flex;
   margin: auto;
   width: 100%;
-  max-width: 320px;
-  height: 320px;
-  background: rgb(72, 11, 10);
+  max-width: 280px;
+  height: 280px;
   cursor: pointer;
   color: white;
 }
@@ -14,15 +13,33 @@
   content: '?';
   position: relative;
   margin: auto;
-  font-size: 300px;
+  font-size: 260px;
   font-weight: 900;
   line-height: 100%;
   text-shadow: 1px 1px 0 black, -1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -3px 3px 0 black;
+  transition: 100ms ease-in-out;
+  line-height: 1;
+  z-index: 20;
+}
+
+.MasterButton::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.MasterButton:not(.MasterButton--loading) {
+  background-color: rgb(72, 11, 10);
+}
+
+.MasterButton:hover {
+  background-color: rgb(255, 20, 0);
 }
 
 .MasterButton:hover,
-.App--touch .MasterButton {
-  background: rgb(255, 20, 0);
+.MasterButton--touch {
   border: 10px solid rgb(254, 254, 127);
   box-shadow: 0 0 10px rgb(254, 254, 127);
   animation: textIn 100ms ease-in-out;
@@ -32,16 +49,18 @@
   text-shadow: 2px 2px 0 black, -2px 2px 0 black, -2px -2px 0 black, 2px -2px 0 black, -6px 6px 0 black;
 }
 
+.MasterButton--loading::after {
+  background-image: url('./loading.png');
+  animation: loading 1s infinite linear;
+}
+
 @keyframes textIn {
-  0% {
-    transform: scale(1);
-  }
+  0%   { transform: scale(1);   }
+  50%  { transform: scale(1.1); }
+  100% { transform: scale(1);   }
+}
 
-  50% {
-    transform: scale(1.1);
-  }
-
-  100% {
-    transform: scale(1);
-  }
+@keyframes loading {
+  0%   { background-position: 0 0; }
+  100% { background-position: 12px 0; }
 }

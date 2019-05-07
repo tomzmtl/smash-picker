@@ -1,13 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
+import classnames from 'classnames';
+import { supportsTouch } from '../../common/featureDetection';
 import './styles.css';
 
 
-class MasterButton extends Component {
-  render() {
-    return (
-      <div className="MasterButton" onClick={this.props.pickFighter} />
-    );
-  }
-}
+const MasterButton = ({ pickFighter, loading }) => {
+  const cls = classnames({
+    MasterButton: true,
+    'MasterButton--loading': loading,
+    'MasterButton--touch': supportsTouch(),
+  });
+
+  return (
+    <div className={cls} onClick={pickFighter} />
+  );
+};
 
 export default MasterButton;
