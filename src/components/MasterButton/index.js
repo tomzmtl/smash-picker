@@ -1,7 +1,7 @@
 import React from 'react';
 import classnames from 'classnames';
 import { supportsTouch } from '../../common/featureDetection';
-import './styles.css';
+import './styles.scss';
 
 
 const MasterButton = ({ pickFighter, loading }) => {

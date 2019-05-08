@@ -1,6 +1,6 @@
 import React from 'react';
 import { getFighterImage } from './helpers';
-import './styles.css';
+import './styles.scss';
 
 const Fighter = ({ fighter, reset }) => (
   <div className="Fighter" onClick={reset}>

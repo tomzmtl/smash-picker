@@ -3,7 +3,7 @@ import MasterButton from '../MasterButton';
 import Fighter from '../Fighter';
 import { pickRandomFighter } from './helpers';
 import { preloadFighterImage } from '../../common/preloader';
-import './styles.css';
+import './styles.scss';
 
 
 class App extends Component {
