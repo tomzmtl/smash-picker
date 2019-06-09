@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import * as qs from 'query-string';
 import MasterButton from '../MasterButton';
 import Fighter from '../Fighter';
 import { pickRandomFighter } from './helpers';
@@ -20,7 +21,8 @@ class App extends Component {
   }
 
   pickFighter() {
-    const fighter = pickRandomFighter();
+    const { f } = qs.parse(window.location.search);
+    const fighter = pickRandomFighter(f ? parseInt(f) : null);
     this.setState({ loading: true }, () => {
       preloadFighterImage(fighter)
       .then(() => {

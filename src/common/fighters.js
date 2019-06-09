@@ -6,6 +6,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 390,
+      offsetX: 0,
+      offsetY: -30,
+    },
   },
   {
     name: 'Donkey Kong',
@@ -14,6 +19,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 400,
+      offsetX: -40,
+      offsetY: 0,
+    },
   },
   {
     name: 'Link',
@@ -22,6 +32,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 570,
+      offsetX: -130,
+      offsetY: -40,
+    },
   },
   {
     name: 'Samus',
@@ -30,6 +45,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 530,
+      offsetX: -60,
+      offsetY: -13,
+    },
   },
   {
     name: 'Dark Samus',
@@ -38,6 +58,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 520,
+      offsetX: -120,
+      offsetY: -3,
+    },
   },
   {
     name: 'Yoshi',
@@ -46,6 +71,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 360,
+      offsetX: -20,
+      offsetY: 5,
+    },
   },
   {
     name: 'Kirby',
@@ -54,6 +84,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 320,
+      offsetX: -4,
+      offsetY: 4,
+    },
   },
   {
     name: 'Fox',
@@ -62,6 +97,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 530,
+      offsetX: -60,
+      offsetY: 0,
+    },
   },
   {
     name: 'Pikachu',
@@ -70,6 +110,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 350,
+      offsetX: 0,
+      offsetY: -15,
+    },
   },
   {
     name: 'Luigi',
@@ -78,6 +123,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 420,
+      offsetX: 0,
+      offsetY: 0,
+    },
   },
   {
     name: 'Ness',
@@ -86,6 +136,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 330,
+      offsetX: 0,
+      offsetY: 0,
+    },
   },
   {
     name: 'Captain Falcon',
@@ -94,6 +149,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 700,
+      offsetX: -70,
+      offsetY: 0,
+    },
   },
   {
     name: 'Jigglypuff',
@@ -102,6 +162,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 340,
+      offsetX: 3,
+      offsetY: 0,
+    },
   },
   {
     name: 'Peach',
@@ -110,6 +175,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 680,
+      offsetX: -170,
+      offsetY: -60,
+    },
   },
   {
     name: 'Daisy',
@@ -118,6 +188,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 650,
+      offsetX: -110,
+      offsetY: -40,
+    },
   },
   {
     name: 'Bowser',
@@ -126,6 +201,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 490,
+      offsetX: -150,
+      offsetY: -100,
+    },
   },
   {
     name: 'Ice Climbers',
@@ -134,6 +214,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 400,
+      offsetX: -30,
+      offsetY: -80,
+    },
   },
   {
     name: 'Sheik',
@@ -142,6 +227,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 600,
+      offsetX: -100,
+      offsetY: 0,
+    },
   },
   {
     name: 'Zelda',
@@ -150,6 +240,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 820,
+      offsetX: -210,
+      offsetY: 0,
+    },
   },
   {
     name: 'Dr. Mario',
@@ -158,6 +253,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 480,
+      offsetX: -70,
+      offsetY: 0,
+    },
   },
   {
     name: 'Pichu',
@@ -166,6 +266,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 370,
+      offsetX: -30,
+      offsetY: 0,
+    },
   },
   {
     name: 'Falco',
@@ -174,6 +279,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 530,
+      offsetX: -50,
+      offsetY: -30,
+    },
   },
   {
     name: 'Marth',
@@ -182,6 +292,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 800,
+      offsetX: -250,
+      offsetY: -10,
+    },
   },
   {
     name: 'Lucina',
@@ -190,6 +305,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 800,
+      offsetX: -250,
+      offsetY: 10,
+    },
   },
   {
     name: 'Young Link',
@@ -198,6 +318,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 600,
+      offsetX: -190,
+      offsetY: -50,
+    },
   },
   {
     name: 'Ganondorf',
@@ -206,6 +331,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 750,
+      offsetX: -180,
+      offsetY: 0,
+    },
   },
   {
     name: 'Mewtwo',
@@ -214,6 +344,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 600,
+      offsetX: -170,
+      offsetY: 0,
+    },
   },
   {
     name: 'Roy',
@@ -222,6 +357,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 800,
+      offsetX: -150,
+      offsetY: -50,
+    },
   },
   {
     name: 'Chrom',
@@ -230,6 +370,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 800,
+      offsetX: -200,
+      offsetY: -50,
+    },
   },
   {
     name: 'Mr. Game & Watch',
@@ -238,6 +383,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 360,
+      offsetX: 0,
+      offsetY: -25,
+    },
   },
   {
     name: 'Meta Knight',
@@ -246,6 +396,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 450,
+      offsetX: -70,
+      offsetY: -70,
+    },
   },
   {
     name: 'Pit',
@@ -254,6 +409,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 750,
+      offsetX: -150,
+      offsetY: -50,
+    },
   },
   {
     name: 'Dark Pit',
@@ -262,6 +422,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 750,
+      offsetX: -250,
+      offsetY: -70,
+    },
   },
   {
     name: 'Zero Suit Samus',
@@ -270,6 +435,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 800,
+      offsetX: -200,
+      offsetY: 20,
+    },
   },
   {
     name: 'Wario',
@@ -278,6 +448,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 450,
+      offsetX: -50,
+      offsetY: 0,
+    },
   },
   {
     name: 'Snake',
@@ -286,6 +461,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 700,
+      offsetX: -200,
+      offsetY: 0,
+    },
   },
   {
     name: 'Ike',
@@ -294,6 +474,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 800,
+      offsetX: -160,
+      offsetY: 0,
+    },
   },
   {
     name: 'Pokémon Trainer',
@@ -302,6 +487,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 700,
+      offsetX: -180,
+      offsetY: 0,
+    },
   },
   {
     name: 'Pokémon Trainer',
@@ -310,6 +500,11 @@ export const FIGHTERS = [
     pickable: false,
     dlc: false,
     alts: [],
+    display: {
+      scale: 320,
+      offsetX: 0,
+      offsetY: 0,
+    },
   },
   {
     name: 'Pokémon Trainer',
@@ -318,6 +513,11 @@ export const FIGHTERS = [
     pickable: false,
     dlc: false,
     alts: [],
+    display: {
+      scale: 320,
+      offsetX: 0,
+      offsetY: 0,
+    },
   },
   {
     name: 'Diddy Kong',
@@ -326,6 +526,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 360,
+      offsetX: -20,
+      offsetY: 0,
+    },
   },
   {
     name: 'Lucas',
@@ -334,6 +539,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 380,
+      offsetX: -50,
+      offsetY: 0,
+    },
   },
   {
     name: 'Sonic',
@@ -342,6 +552,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 360,
+      offsetX: -10,
+      offsetY: 0,
+    },
   },
   {
     name: 'King Dedede',
@@ -350,6 +565,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 400,
+      offsetX: -30,
+      offsetY: 0,
+    },
   },
   {
     name: 'Olimar',
@@ -358,6 +578,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 380,
+      offsetX: -20,
+      offsetY: -10,
+    },
   },
   {
     name: 'Lucario',
@@ -366,6 +591,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 420,
+      offsetX: -30,
+      offsetY: -10,
+    },
   },
   {
     name: 'R.O.B.',
@@ -374,6 +604,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 480,
+      offsetX: -130,
+      offsetY: 20,
+    },
   },
   {
     name: 'Toon Link',
@@ -382,6 +617,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 360,
+      offsetX: 0,
+      offsetY: -20,
+    },
   },
   {
     name: 'Wolf',
@@ -390,6 +630,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 520,
+      offsetX: -100,
+      offsetY: 0,
+    },
   },
   {
     name: 'Villager',
@@ -398,6 +643,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 400,
+      offsetX: -40,
+      offsetY: -50,
+    },
   },
   {
     name: 'Mega Man',
@@ -406,6 +656,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 400,
+      offsetX: -20,
+      offsetY: 0,
+    },
   },
   {
     name: 'Wii Fit Trainer',
@@ -414,6 +669,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 800,
+      offsetX: -200,
+      offsetY: 0,
+    },
   },
   {
     name: 'Rosalina & Luma',
@@ -422,6 +682,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 500,
+      offsetX: -60,
+      offsetY: 0,
+    },
   },
   {
     name: 'Little Mac',
@@ -430,6 +695,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 500,
+      offsetX: -25,
+      offsetY: 0,
+    },
   },
   {
     name: 'Greninja',
@@ -438,6 +708,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 500,
+      offsetX: -80,
+      offsetY: 0,
+    },
   },
   {
     name: 'Mii Brawler',
@@ -446,6 +721,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 550,
+      offsetX: -110,
+      offsetY: -10,
+    },
   },
   {
     name: 'Mii Swordfighter',
@@ -454,6 +734,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 430,
+      offsetX: -70,
+      offsetY: -10,
+    },
   },
   {
     name: 'Mii Gunner',
@@ -462,6 +747,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 430,
+      offsetX: -30,
+      offsetY: -10,
+    },
   },
   {
     name: 'Palutena',
@@ -470,6 +760,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 800,
+      offsetX: -220,
+      offsetY: -30,
+    },
   },
   {
     name: 'Pac-Man',
@@ -478,6 +773,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 400,
+      offsetX: -20,
+      offsetY: 0,
+    },
   },
   {
     name: 'Robin',
@@ -486,6 +786,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 800,
+      offsetX: -210,
+      offsetY: -30,
+    },
   },
   {
     name: 'Shulk',
@@ -494,6 +799,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 700,
+      offsetX: -100,
+      offsetY: -100,
+    },
   },
   {
     name: 'Bowser Jr.',
@@ -502,6 +812,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 460,
+      offsetX: -80,
+      offsetY: -100,
+    },
   },
   {
     name: 'Duck Hunt',
@@ -510,6 +825,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 320,
+      offsetX: 0,
+      offsetY: -70,
+    },
   },
   {
     name: 'Ryu',
@@ -518,6 +838,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 800,
+      offsetX: -240,
+      offsetY: 0,
+    },
   },
   {
     name: 'Ken',
@@ -526,6 +851,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 600,
+      offsetX: -190,
+      offsetY: 0,
+    },
   },
   {
     name: 'Cloud',
@@ -534,6 +864,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 800,
+      offsetX: -150,
+      offsetY: -30,
+    },
   },
   {
     name: 'Corrin',
@@ -542,6 +877,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 800,
+      offsetX: -270,
+      offsetY: 0,
+    },
   },
   {
     name: 'Bayonetta',
@@ -550,6 +890,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 800,
+      offsetX: -210,
+      offsetY: -40,
+    },
   },
   {
     name: 'Inkling',
@@ -558,6 +903,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 430,
+      offsetX: -40,
+      offsetY: -70,
+    },
   },
   {
     name: 'Ridley',
@@ -566,6 +916,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 500,
+      offsetX: -10,
+      offsetY: -40,
+    },
   },
   {
     name: 'Simon',
@@ -574,6 +929,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 750,
+      offsetX: -160,
+      offsetY: -30,
+    },
   },
   {
     name: 'Richter',
@@ -582,6 +942,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 750,
+      offsetX: -160,
+      offsetY: -80,
+    },
   },
   {
     name: 'King K. Rool',
@@ -590,6 +955,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 480,
+      offsetX: -70,
+      offsetY: 0,
+    },
   },
   {
     name: 'Isabelle',
@@ -598,6 +968,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 500,
+      offsetX: -80,
+      offsetY: -100,
+    },
   },
   {
     name: 'Incineroar',
@@ -606,6 +981,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: false,
     alts: [],
+    display: {
+      scale: 530,
+      offsetX: 0,
+      offsetY: 0,
+    },
   },
   {
     name: 'Piranha Plant',
@@ -614,6 +994,11 @@ export const FIGHTERS = [
     pickable: true,
     dlc: true,
     alts: [],
+    display: {
+      scale: 320,
+      offsetX: 0,
+      offsetY: 10,
+    },
   },
   {
     name: 'Joker',
@@ -622,5 +1007,10 @@ export const FIGHTERS = [
     pickable: true,
     dlc: true,
     alts: [],
+    display: {
+      scale: 740,
+      offsetX: -180,
+      offsetY: 0,
+    },
   },
 ];

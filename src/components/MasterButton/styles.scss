@@ -3,8 +3,8 @@
   display: flex;
   margin: auto;
   width: 100%;
-  max-width: 280px;
-  height: 280px;
+  max-width: 300px;
+  height: 300px;
   cursor: pointer;
   color: white;
 
@@ -31,26 +31,32 @@
 
   &:not(&--loading) {
     background-color: rgb(72, 11, 10);
-  }
 
-  &:hover {
-    background-color: rgb(255, 20, 0);
+    &:hover,
+    .MasterButton--touch {
+      border: 10px solid rgb(254, 254, 127);
+      box-shadow: 0 0 10px rgb(254, 254, 127);
+      animation: textIn 100ms ease-in-out;
+    }
 
-    &:hover::before {
-      text-shadow: 2px 2px 0 black, -2px 2px 0 black, -2px -2px 0 black, 2px -2px 0 black, -6px 6px 0 black;
+    &:hover {
+      background-color: rgb(255, 20, 0);
+
+      &::before {
+        text-shadow: 2px 2px 0 black, -2px 2px 0 black, -2px -2px 0 black, 2px -2px 0 black, -6px 6px 0 black;
+      }
     }
   }
 
-  &:hover,
-  &--touch {
-    border: 10px solid rgb(254, 254, 127);
-    box-shadow: 0 0 10px rgb(254, 254, 127);
-    animation: textIn 100ms ease-in-out;
-  }
 
-  &--loading::after {
-    background-image: url('./loading.png');
-    animation: loading 1s infinite linear;
+  &--loading {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.1);
+
+    &::after {
+      background-image: url('./loading.png');
+      animation: loading 1s infinite linear;
+    }
   }
 }
 
